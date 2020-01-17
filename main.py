@@ -1,7 +1,7 @@
 # Twitter Times Analyser
 # Basic script to analyse and graph how a Twitter account's tweets perform
-# throughout the day hour by hour in terms of likes. Version1.
-from textblob import TextBlob
+# during different times of the day on average. Version 1.
+import GetOldTweets3 as got
 import matplotlib.pylab as plt
 
 # get tweets
